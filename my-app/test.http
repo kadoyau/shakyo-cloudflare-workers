@@ -1,0 +1,22 @@
+### Send POST request with json body
+POST http://127.0.0.1:8787/post
+Content-Type: application/json
+
+{
+	"id": 999,
+	"value": "content"
+}
+
+###
+POST http://127.0.0.1:8787/lookup
+Content-Type: application/json
+
+{
+	"id": 999,
+	"value": "content"
+}
+
+
+### post request via query string
+POST http://127.0.0.1:8787/lookup?id=999&value=content&text=cloudflare/wrangler#1
+
